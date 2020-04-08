@@ -1,0 +1,75 @@
+/* Main Rules */
+body {
+  background-image: url('../img/background.jpg');
+}
+.main-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+hr {
+  margin: 0;
+}
+/* End Main Rules */
+
+/* Header Style */
+.header  {
+  color: white;
+  margin: 0;
+  font-size: 25px;
+  margin: 0;
+}
+.header img {
+  height: 100px;
+  vertical-align: middle;
+  /* line-height: 100px; */
+}
+form {
+  display: inline-block;
+}
+.bottom-header {
+  margin-top: 5px;
+  line-height: 50px;
+  /* vertical-align: middle; */
+}
+.bottom-header .counter .number{
+  background: orange;
+  /* display: inline-block; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+/* End Header Style */
+
+/*Content Style*/
+.content {
+  margin: 10px 0;
+}
+.email {
+  border: 1px solid black;
+  background: lightgray;
+  padding: 2px;
+}
+#unread {
+  background: white;
+}
+.email-text{
+  color:gray;
+}
+/*End Content Style*/
+
+/*Footer Style*/
+.footer {
+  text-align: center;
+  color: white;
+  font-size:25px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+.footer span {
+  font-weight: normal;
+  font-size: 15px;
+  font-style: italic;
+}
+/*End Footer Style*/
